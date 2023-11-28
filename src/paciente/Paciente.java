@@ -50,6 +50,15 @@ public class Paciente {
         this.horaSalida = horaSalida;
     }
 
+    public Paciente(String cedula, String nombre, Date fecha, String horaLlegada, String horaSalida) {
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.fecha = fecha;
+        this.horaLlegada = horaLlegada;
+        this.horaSalida = horaSalida;
+    }
+    
+
     @Override
     public String toString() {
         return "Paciente{" + "cedula=" + cedula + ", nombre=" + nombre + ", fecha=" + fecha + ", horaLlegada=" + horaLlegada + ", horaSalida=" + horaSalida + '}';
