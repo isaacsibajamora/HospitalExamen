@@ -20,7 +20,9 @@ public class Paciente {
     private String Clasificacion;
 
     public Paciente(String Clasificacion) {
-        this.Clasificacion = Clasificacion;
+        this.Clasificacion ="verde";
+        this.Clasificacion= "amarillo";
+        this.Clasificacion= "rojo";
     }
 
     public String getClasificacion() {
@@ -71,7 +73,7 @@ public class Paciente {
         this.horaSalida = horaSalida;
     }
     
-
+   
     @Override
     public String toString() {
         return "Paciente{" + "cedula=" + cedula + ", nombre=" + nombre + ", fecha=" + fecha + ", horaLlegada=" + horaLlegada + ", horaSalida=" + horaSalida + '}';
