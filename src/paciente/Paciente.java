@@ -63,5 +63,5 @@ public class Paciente {
     public String toString() {
         return "Paciente{" + "cedula=" + cedula + ", nombre=" + nombre + ", fecha=" + fecha + ", horaLlegada=" + horaLlegada + ", horaSalida=" + horaSalida + '}';
     }
-    
+  
 }
