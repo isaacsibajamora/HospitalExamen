@@ -17,6 +17,19 @@ public class Paciente {
     private Date fecha;
     private String horaLlegada;
     private String horaSalida;
+    private String Clasificacion;
+
+    public Paciente(String Clasificacion) {
+        this.Clasificacion = Clasificacion;
+    }
+
+    public String getClasificacion() {
+        return Clasificacion;
+    }
+
+    public void setClasificacion(String Clasificacion) {
+        this.Clasificacion = Clasificacion;
+    }
 
     public String getCedula() {
         return cedula;
